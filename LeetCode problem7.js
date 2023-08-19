@@ -4,7 +4,17 @@
 
 
 var argumentsLength = function(...args) {
- return args.length
+     
  
+ //-----using .length method
+ return args.length
+     
+ 
+ //-----USING while loop
+ while (args[count]!==undefined){
+    count++
+}
+ return count
+
 };
 argumentsLength(1, 2, 3); // 3
